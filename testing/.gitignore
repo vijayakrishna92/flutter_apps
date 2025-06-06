@@ -1,0 +1,43 @@
+# Python
+__pycache__/
+*.py[cod]
+*.sqlite3
+*.log
+*.env
+env/
+venv/
+vr/             # ignore virtualenv named vr
+vr/
+backend/vr/
+*.pyc
+__pycache__/
+*.pyo
+
+# Django
+*.db
+*.bak
+*.swp
+*.swo
+media/
+staticfiles/
+local_settings.py
+
+# Flutter
+build/
+.dart_tool/
+.packages
+.flutter-plugins
+.flutter-plugins-dependencies
+.pub-cache/
+.idea/
+android/.gradle/
+ios/Flutter/Flutter.framework
+ios/Flutter/Flutter.podspec
+pubspec.lock
+
+# VS Code
+.vscode/
+
+# OS generated
+.DS_Store
+Thumbs.db
