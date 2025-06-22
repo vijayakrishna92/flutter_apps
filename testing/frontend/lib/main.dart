@@ -35,7 +35,7 @@ class _TokenPageState extends State<TokenPage> {
 
     try {
       final response = await http.post(
-        Uri.parse('http:// /api/token/'),///// add your ip
+        Uri.parse('http://192.168.1.17:8000/api/token/'),///// add your ip and 8000 port
         headers: {'Content-Type': 'application/json'},
         body: jsonEncode({'username': 'admin', 'password': 'admin123'}),
       );
